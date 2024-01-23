@@ -1,0 +1,99 @@
+
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+} */
+
+.carouselfit{
+    background-image: url(https://a0.anyrgb.com/pngimg/1148/1792/cooking-cooking-food-ingredient-cooking-pan-health-food-healthy-diet-organic-food-baking-bowl-cooking-ingredient.png);
+    height: 100vh;
+    width:100%;
+    margin-bottom: -5px;
+    object-fit: cover;
+    padding-bottom: 96%;
+    margin-top:-72px;position: absolute;
+  
+      
+    background-repeat: no-repeat;
+    background-size: 200%; 
+    }
+     ::ng-deep .carousel-item {
+        width:100% !important;
+        height: 100vh !important;
+        margin-left: 90px;
+        padding:0;
+        margin:0;
+        margin-left: 50px;
+        padding-left: 50px;
+       justify-content: center;
+      
+    
+    } 
+    
+      
+   
+     #carouselExampleAutoplaying img {
+      height:100vh; 
+        width: 200px;
+        object-fit: cover;
+        position: relative;
+        align-items: center;
+        padding:150px;
+   
+      } 
+      
+      /* Customize carousel controls */
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 15%;
+        margin-left:40%;
+        margin-right: 10%;
+        position: absolute; /* Adjust the width based on your preference */
+      justify-items: center;
+      align-items: center;
+      margin-bottom:20%;
+    }
+      
+      /* Style the carousel indicators */
+      .carousel-indicators {
+        bottom: 10px;
+      }
+      
+      /* Optionally, add some styling to the carousel container */
+      #carouselExampleAutoplaying {
+        margin-top: 50px;
+        /* border: 1px solid #ddd; */
+        border-radius: 25px;
+        overflow: hidden;
+        height:150vh;
+        width:50%;
+        align-items: center;
+        justify-content: center;
+        margin-right:150px;
+        /* position: absolute; */
+        
+      }
+      
+      .dash{
+        /* dashboard.component.css */
+        
+          width: 713px;
+          height: 23vh;
+          margin: -122px auto;
+          padding: 20px;
+          border-radius: 8px;
+          /* margin-left: 12px; */
+          left: 20px;
+          margin-top: -414px;
+      }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+     margin-left: 222px;
+  }
+  
+      

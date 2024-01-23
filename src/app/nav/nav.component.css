@@ -1,0 +1,33 @@
+/* side-nav.component.css */
+
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #090202;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 15px 8px 15px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+  }
+  
+   .sidenav a:hover {
+    color: #f1f1f1;
+  } 
+  
+   .sidenav a i{
+  padding-right: 20px;
+  
+  }
+  .sidenav a i:hover{
+      color:rgb(129, 12, 82);
+  }
+   
