@@ -1,0 +1,47 @@
+<!-- <div *ngIf="userName" class="card-main clearfix">
+  <div class="user-details">
+    <div class="user-info">
+      <h4>User Details</h4>
+    </div>
+  </div>
+  <p>Company Name - {{ userName }}</p>
+  <p>User Name - {{ companyName }}</p>
+  <p>Mobile Number - {{ mobile }}</p>
+</div> -->
+
+<table *ngIf="!isFilter">
+  <thead>
+    <tr>
+      <th>Company Name</th>
+      <th>User Name</th>
+      <th>Mobile Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of userInfo">
+      <td>{{ user.companyName }}</td>
+      <td>{{ user.userName }}</td>
+      <td>{{ user.mobile }}</td>
+    </tr>
+  </tbody>
+</table>
+<table *ngIf="isFilter">
+  <thead>
+    <tr>
+      <th>User Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of userInfo">
+      <td>{{ user.userName }}</td>
+    </tr>
+  </tbody>
+</table>
+<button *ngIf="!isFilter" (click)="getUserData('filter')">
+  Display 5 user names
+</button>
+<button *ngIf="isFilter" (click)="getUserData('api')">
+  Display All
+</button>
+
+<button (click)="showUserData()" class ="id">show your data</button>

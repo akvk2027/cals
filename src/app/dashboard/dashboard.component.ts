@@ -9,7 +9,8 @@ import { Router } from '@angular/router';
 export class DashboardComponent {
   constructor(private router: Router) {}
 
-  navigateToAnotherComponent(): void {
-    this.router.navigate(['/cals']);
-  }
+  
+  // userDetails():void{
+  //   this.router.navigate(['/user']);
+  // }
 }

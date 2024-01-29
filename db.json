@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "companyName": "Orion Innovation",
+      "userName": "Kavya Vijayakumar",
+      "mobile": 6379830668
+    },
+    {
+      "id": 2,
+      "companyName": "Blue Code",
+      "userName": "Ajaykumar",
+      "mobile": 7894562301
+    },
+    {
+      "id": 3,
+      "companyName": "Hectar Solution",
+      "userName": "Jhon",
+      "mobile": 6379880663
+    },
+    {
+      "id": 4,
+      "companyName": "White Matrix",
+      "userName": "Peter",
+      "mobile": 6379830663
+    },
+    {
+      "id": 5,
+      "userName": "Daniel",
+      "companyName": "HCL",
+      "mobile": 9379830663
+    },
+    {
+      "id": 6,
+      "companyName": "TCS",
+      "userName": "Sandiya",
+      "mobile": 6979830663
+    }
+  ],
+  "addUserData": [
+    {
+      "title": "asdf",
+      "body": "sd",
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "title": "asdfasdfadsfadsf",
+      "body": "asdfasdfadsfads",
+      "userId": 5,
+      "id": 2
+    },
+    {
+      "title": "asdf",
+      "body": "asdf",
+      "userId": 3434,
+      "id": 3
+    }
+  ]
+}

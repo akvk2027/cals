@@ -8,17 +8,31 @@ import { NavComponent } from './nav/nav.component';
 import { CalsComponent } from './cals/cals.component';
 import { FormsModule } from '@angular/forms';
 
+import {  HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { UserComponent } from './user/user.component';
+import { InshowComponent } from './inshow/inshow.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     NavComponent,
-    CalsComponent
+    CalsComponent,
+    UserComponent,
+    InshowComponent,
+
+ 
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
